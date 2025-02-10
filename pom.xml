@@ -40,16 +40,6 @@
             <artifactId>slf4j-simple</artifactId>
             <version>2.0.16</version>
         </dependency>
-        <!--<dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-core</artifactId>
-            <version>6.6.6.Final</version>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate</groupId>
-            <artifactId>hibernate-entitymanager</artifactId>
-            <version>5.6.15.Final</version>
-        </dependency>-->
         <dependency>
             <groupId>org.liquibase</groupId>
             <artifactId>liquibase-core</artifactId>
@@ -76,30 +66,10 @@
             <version>1.18.36</version>
             <scope>provided</scope>
         </dependency>
-        <!--<dependency>
-            <groupId>jakarta.data</groupId>
-            <artifactId>jakarta.data-api</artifactId>
-            <version>1.0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>jakarta.enterprise</groupId>
-            <artifactId>jakarta.enterprise.cdi-api</artifactId>
-            <version>4.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>jakarta.inject</groupId>
-            <artifactId>jakarta.inject-api</artifactId>
-            <version>2.0.1</version>
-        </dependency> -->
         <dependency>
             <groupId>jakarta.persistence</groupId>
             <artifactId>jakarta.persistence-api</artifactId>
             <version>3.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>jakarta.ws.rs</groupId>
-            <artifactId>jakarta.ws.rs-api</artifactId>
-            <version>4.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.json</groupId>
