@@ -7,8 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.io.File;
-import java.io.FileWriter;
+import java.io.*;
 import java.net.http.HttpClient;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -85,7 +84,9 @@ public class Config {
             File config = new File(configJsonPath);
             if (config.createNewFile()) {
                 try (FileWriter writer = new FileWriter(configJsonPath)) {
-                    writer.write(new String(Files.readAllBytes(Paths.get(this.getClass().getResource("/config.json").toURI()))));
+                    InputStreamReader is = new InputStreamReader(this.getClass().getResourceAsStream("/config.json"));
+                    is.transferTo(writer);
+                    //writer.write(new String(Files.readAllBytes(Paths.get(this.getClass().getResource("/config.json").toURI()))));
                 }
             }
             ObjectMapper mapper = new ObjectMapper();
