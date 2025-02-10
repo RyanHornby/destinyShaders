@@ -1,0 +1,29 @@
+{
+  "innerCenter": [
+    {"x": 48, "y": 48, "width": 9, "height": 7}
+  ],
+  "outerCenter": [
+    {"x": 47, "y": 19},
+    {"x": 47, "y": 75},
+    {"x": 19, "y": 48},
+    {"x": 75, "y": 48}
+  ],
+  "trimUpper": [
+    {"x": 47, "y": 9}
+  ],
+  "trimLower": [
+    {"x": 47, "y": 87}
+  ],
+  "up": [
+    {"x": 33, "y": 3, "width": 35, "height": 3}
+  ],
+  "down": [
+    {"x": 33, "y": 85, "width": 35, "height": 3}
+  ],
+  "left": [
+    {"x": 3, "y": 33, "width": 3, "height": 35}
+  ],
+  "right": [
+    {"x": 87, "y": 33, "width": 3, "height": 35}
+  ]
+}
