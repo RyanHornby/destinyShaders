@@ -3,7 +3,7 @@
 
 Destiny shader finder is a tool that allows you to search for Destiny 2 shaders using a set of color filters:
 
-![](htttps://github.com/RyanHornby/destinyShaders/blob/master/Demo.gif?raw=true)
+![](https://github.com/RyanHornby/destinyShaders/blob/master/Demo.gif?raw=true)
 
 Note that the color search is not perfect, and there will likely be shaders where you don't agree with the color the app has chosen. So be sure to try similar colors if you don't find what you want.
 
