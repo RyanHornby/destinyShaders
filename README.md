@@ -8,7 +8,7 @@ Destiny shader finder is a tool that allows you to search for Destiny 2 shaders 
 Note that the color search is not perfect, and there will likely be shaders where you don't agree with the color the app has chosen. So be sure to try similar colors if you don't find what you want.
 
 # Installation
-First ensure you have java version 19 or higher installed. Then download either the `.jar` or `.exe` file from the [releases page](htttps://github.com/RyanHornby/destinyShaders/releases) and run it.
+First ensure you have java version 19 or higher installed. Then download either the `.jar` or `.exe` file from the [releases page](https://github.com/RyanHornby/destinyShaders/releases) and run it.
 
 The first time you run the application, it will download all of the game's shaders and analyze their colors, which could take a couple minutes. Future launches will be much quicker since the results of this process will be stored locally on your computer (in AppData\Roaming\DestinyShaderFinder for most people).
 # Used Open Source Software
