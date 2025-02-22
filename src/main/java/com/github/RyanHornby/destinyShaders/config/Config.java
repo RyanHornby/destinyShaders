@@ -14,19 +14,19 @@ import java.nio.file.Paths;
 
 @Configuration
 public class Config {
-    @Value("\\main.db")
+    @Value("//main.db")
     private String mainDb;
 
-    @Value("\\temp.db")
+    @Value("//temp.db")
     private String tempDb;
 
-    @Value("\\icons\\")
+    @Value("//icons//")
     private String icons;
 
     @Value("https://www.bungie.net")
     private String baseUrl;
 
-    @Value("\\config.json")
+    @Value("//config.json")
     private String configJson;
 
     @Bean
@@ -40,12 +40,12 @@ public class Config {
         String fileBasePath = "";
         if (System.getenv("APPDATA") == null) {
             if (System.getProperty("user.home") == null) {
-                fileBasePath = ".\\DestinyShaderFinder";
+                fileBasePath = ".//DestinyShaderFinder";
             } else {
-                fileBasePath = System.getProperty("user.home") + "\\DestinyShaderFinder";
+                fileBasePath = System.getProperty("user.home") + "//DestinyShaderFinder";
             }
         } else {
-            fileBasePath = System.getenv("APPDATA") + "\\DestinyShaderFinder";
+            fileBasePath = System.getenv("APPDATA") + "//DestinyShaderFinder";
         }
 
         new File(fileBasePath).mkdirs();
